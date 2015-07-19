@@ -8,3 +8,5 @@
 (load-user-file "package-archives.el")
 (load-user-file "smartparens.el")
 (load-user-file "theme.el")
+(load-user-file "helm-mode.el")
+(load-user-file "ido-mode.el")
