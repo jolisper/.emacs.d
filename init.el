@@ -11,3 +11,4 @@
 (load-user-file "helm-mode.el")
 (load-user-file "ido-mode.el")
 (load-user-file "info-files-dir.el")
+(load-user-file "undo-tree-mode.el")
