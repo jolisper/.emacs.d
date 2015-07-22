@@ -15,3 +15,4 @@
 (load-user-file "font-size.el")
 (load-user-file "tool-bar-mode.el")
 (load-user-file "scroll-bar-mode.el")
+(load-user-file "rainbow-delimiters-mode.el")
