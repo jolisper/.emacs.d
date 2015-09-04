@@ -2,20 +2,28 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/jolisper/src/inifinite-skills/scala/" . "hello/")
+ ("/home/jolisper/src/inifinite-skills/" . "scala/")
+ ("/home/jolisper/.sbt/0.13/" . "staging/")
+ ("/home/jolisper/.sbt/" . "0.13/")
  ("/home/jolisper/.lein/" . "self-installs/")
- ("/home/jolisper/" . ".lein/")
+ ("/home/jolisper/" . ".sbt/")
  ("/home/jolisper/src/living-clojure/clj-repl/src/" . "clj_repl/")
  ("/home/jolisper/src/living-clojure/clj-repl/" . "src/")
  ("/home/jolisper/src/living-clojure/" . "clj-repl/")
- ("/home/jolisper/src/" . "living-clojure/")
+ ("/home/jolisper/src/" . "inifinite-skills/")
  ("/usr/share/doc/" . "bash/")
  ("/usr/share/" . "doc/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jolisper/.lein/"
+ "/home/jolisper/src/inifinite-skills/scala/hello/"
+ "/home/jolisper/src/inifinite-skills/scala/"
  "/home/jolisper/src/living-clojure/clj-repl/src/clj_repl/"
+ "/home/jolisper/.sbt/0.13/plugins/"
+ "/home/jolisper/.emacs.d/"
+ "/home/jolisper/.lein/"
  "/home/jolisper/.lein/self-installs/"
  "/etc/"
  "/home/jolisper/src/living-clojure/clj-repl/"
@@ -24,35 +32,59 @@
 
 ;; ----- ido-work-file-list -----
 (
- "profiles.clj"
+ "hw.scala"
  "core.clj"
+ ".ensime"
+ "plugins.sbt"
+ "init.el"
+ "ensime.el"
+ "profiles.clj"
  "leiningen-2.5.2-standalone.jar"
  "bash.bashrc"
  "project.clj"
- ".bashrc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jolisper/.lein/" (21982 36593 844054 596000) "../" "profiles.clj" "./" "self-installs/")
+ ("/home/jolisper/src/inifinite-skills/scala/hello/" (21989 42034 412186 634000) "../" "target/" ".ensime" "./" "hw.scala" "src/" ".ensime_cache/")
 
- ("/home/jolisper/src/living-clojure/clj-repl/" (21982 37088 901677 164000) "../" "target/" ".lein-repl-history" "README.md" "project.clj" ".idea/" "./" "resources/" ".nrepl-port" "src/" "clj_repl.iml" ".gitignore")
+ ("/home/jolisper/src/living-clojure/clj-repl/" (21991 20271 798940 690000) "../" "target/" ".lein-repl-history" "README.md" "project.clj" ".idea/" "./" "resources/" ".nrepl-port" "src/" "clj_repl.iml" ".gitignore")
 
- ("/home/jolisper/" (21982 37055 250355 306000) "../" ".adobe/" ".dmrc" "Pictures/" ".emacs" "Music/" ".profile" ".Xauthority" "bin/" ".xscreensaver" ".bash_logout" ".ssh/" ".gnupg/" ".m2/" ".lein/" ".thumbnails/" "./" ".xsession-errors.old" "Desktop/" ".emacs.d/" ".config/" "Templates/" ".bash_history" "Public/" ".cache/" "src/" ".sudo_as_admin_successful" "Videos/" "Documents/" ".dbus/" ".bashrc" ".macromedia/" ".gconf/" ".xsession-errors" ".oracle_jre_usage/" ".local/" "Downloads/" ".viminfo" ".mozilla/")
+ ("/home/jolisper/src/living-clojure/clj-repl/src/clj_repl/" (21991 56309 379578 306000) "../" "./" "core.clj" ".#core.clj")
+
+ ("/home/jolisper/" (21991 17130 508123 85000) "../" "target/" ".adobe/" ".dmrc" "Pictures/" ".emacs" ".Skype/" "Music/" ".profile" ".gksu.lock" ".Xauthority" "bin/" ".ivy2/" ".xscreensaver" ".bash_logout" ".ssh/" ".gnupg/" ".m2/" ".lein/" "opt/" ".sbt/" ".thumbnails/" "./" ".gitconfig" ".xsession-errors.old" "Desktop/" ".emacs.d/" ".config/" "Templates/" ".bash_history" "Public/" "workspace/" ".cache/" ".mplayer/" "src/" ".sudo_as_admin_successful" "Videos/" "Documents/" ".dbus/" ".bashrc" ".macromedia/" ".gconf/" ".xsession-errors" ".cddb/" ".oracle_jre_usage/" ".local/" "Downloads/" ".viminfo" "tmp/" ".mozilla/")
+
+ ("/home/jolisper/.emacs.d/" (21989 32337 341548 612000) "../" "tool-bar-mode.el" "info-files-dir.el" "ensime.el" "theme.el" "smartparens.el" "scroll-bar-mode.el" "undo-tree-mode.el" "package-archives.el" "auto-save-and-backup-files.el" "ido-mode.el" "projectile-bookmarks.eld" "info/" "./" "menu-bar.el" "font-size.el" "init.el" "ido.last" "helm-mode.el" "url/" "elpa/" "personal.el" "projectile-mode.el" "company-mode.el" ".git/" ".gitignore" "auto-save-list/" "rainbow-delimiters-mode.el" "tramp")
+
+ ("/home/jolisper/.sbt/0.13/plugins/" (21989 14242 939792 811000) "../" "target/" "project/" "plugins.sbt" "./")
+
+ ("/home/jolisper/src/inifinite-skills/scala/" (21989 14031 746848 796000) "../" "target/" "./" "hw.scala" "hello/")
+
+ ("/home/jolisper/.sbt/0.13/staging/" (21989 13647 740494 567000) "../" "./")
+
+ ("/home/jolisper/.sbt/0.13/" (21989 13647 740494 567000) "../" "staging/" "./")
+
+ ("/home/jolisper/.sbt/" (21989 13647 740494 567000) "boot/" "../" "0.13/" "./")
+
+ ("/home/jolisper/.sbt/boot/" (21989 12469 538966 751000) "../" "resolution-cache/" "./" "update.log" "sbt.boot.lock")
+
+ ("/home/jolisper/src/" (21989 12849 880844 436000) "scattered-scatterplot/" "../" "org/" "ces/" "rml/" "lilypond/" "elixir/" "react/" "hellorest/" "algorithms-1/" "echo.zip" "calcul/" "nimble/" "file-upload/" "nodebots/" "j--/" "echo/" "living-clojure/" "clojure-for-machine-learning/" "ruby_chess/" "socket.io/" "streams-app.txt" "coding-matrix/" "1" "lxd/" "clisp/" "sml/" "scala/" "crystal/" "music-utils/" "./" "angular.js/" "jruby/" "proglang/" "rule-engine/" "programingmasterclass/" "ruby/" "rule-engine.zip" "php-src/" "ruby-tutorial/" "guessing_game/" "inifinite-skills/" "hello_world_rust/" "clojure-games/" "clojurescript/" "benchmark-graph/" "c-programming/" "streamming-example/" "buildyourownlisp/" "charla-git/" "dump.rdb" "factorizar/" "nim/" "emms/" "bulk_operations/" "undo-tree/" "factor/" "streams-app/" "clojure/")
+
+ ("/home/jolisper/src/inifinite-skills/" (21989 12849 904846 831000) "../" "scala/" "./")
+
+ ("/home/jolisper/src/scala/" (21981 14423 277989 545000) "../" ".mailmap" "build.xml" "README.md" "bincompat-forward.whitelist.conf" "CONTRIBUTING.md" "build-ant-macros.xml" "gitconfig.SAMPLE" "Gemfile" "META-INF/" "versions.properties" "test/" "push-binary-libs.sh" "build.number" "spec/" "dbuild-meta.json" "./" ".travis.yml" "lib/" "src/" ".git/" "pull-binary-libs.sh" "tools/" "docs/" ".gitignore" "doc/" "bincompat-backward.whitelist.conf" ".gitattributes")
+
+ ("/etc/" (21989 153 428610 450000) "update-manager/" "polkit-1/" "hosts.allow" "../" "selinux/" "popularity-contest.conf" ".java/" "rsyslog.conf" "network/" "host.conf" "ld.so.cache" "rmt" "mime.types" "python3.4/" "issue.net" "gtk-3.0/" "modules-load.d/" "newt/" "apm/" "pnm2ppa.conf" "calendar/" "login.defs" "mtab" "python2.7/" "insserv/" "emacs/" "debian_version" "insserv.conf" "mailcap" "dnsmasq.d-available/" "ifplugd/" "purple/" "services" "group-" "cron.weekly/" "pulse/" "subgid" "bash.bashrc" "python/" "ghostscript/" "libpaper.d/" "mysql/" "mtools.conf" "gnome-app-install/" "default/" "securetty" "wpa_supplicant/" "binfmt.d/" "dictionaries-common/" "apparmor.d/" "printcap" "dhcp/" "initramfs-tools/" "ufw/" "ppp/" "insserv.conf.d/" "sane.d/" "chatscripts/" "dconf/" "init.d/" "resolv.conf" "sudoers.d/" "locale.alias" "gnome-system-tools/" "cron.daily/" "update-notifier/" "init/" "security/" "rc4.d/" "sysctl.conf" "gconf/" "firefox/" "opt/" "modules" "wgetrc" "udisks2/" "zsh_command_not_found" "apt/" "rc6.d/" "ssl/" "hostname" "gshadow-" "magic.mime" "mke2fs.conf" "subgid-" "ltrace.conf" "rsyslog.d/" "lxc/" "hosts" "ca-certificates.conf" "gtk-2.0/" "inputrc" "magic" "alternatives/" "nanorc" "cupshelpers/" "pam.d/" "usb_modeswitch.conf" "libaudit.conf" "crontab" "gss/" "./" "sgml/" "papersize" "rc.local" "iproute2/" "apport/" "shells" "profile" "perl/" "mailcap.order" "gai.conf" "passwd" "adduser.conf" "libnl-3/" "issue" "legal" "bindresvport.blacklist" "xul-ext/" "rc3.d/" "ld.so.conf.d/" "passwd-" "menu-methods/" "logrotate.d/" "X11/" "vim/" "groff/" "nsswitch.conf" "ca-certificates/" "rpc" "uniconf.conf" "protocols" "ntp.conf" "profile.d/" "terminfo/" "sysctl.d/" "depmod.d/" "fuse.conf" "libgda-5.0/" "logcheck/" "resolvconf/" "hosts.deny" "dpkg/" "rcS.d/" "cron.hourly/" "dnsmasq.d/" "skel/" "subuid" "debconf.conf" "hdparm.conf" "obex-data-server/" "timezone" "tmpfiles.d/" "shadow" "logrotate.conf" "pki/" "kbd/" "drirc" "manpath.config" "ldap/" "teamviewer/" "emacs24/" "localtime" "UPower/" "grub.d/" "ImageMagick-6/" "ld.so.conf" "xdg/" "bash_completion.d/" "anacrontab" "shadow-" "lxdm/" "ConsoleKit/" "NetworkManager/" "kernel-img.conf" "updatedb.conf" "udev/" "rc0.d/" "networks" "fonts/" "fstab" "gshadow" "usb_modeswitch.d/" "deluser.conf" "wvdial.conf" "python3/" "environment" ".pwd.lock" "xml/" "console-setup/" "bluetooth/" "pm/" "update-motd.d/" "kernel/" "pam.conf" "subuid-" "cups/" "sudoers" "lightdm/" "machine-id" "apparmor/" "dbus-1/" "vtrgb" "os-release" "cron.monthly/" "bash_completion" "vdpau_wrapper.cfg" "gnome/" "systemd/" "cron.d/" "lsb-release" "modprobe.d/" "rc5.d/" "group" "ssh/" "ucf.conf" "rc1.d/" "rc2.d/")
+
+ ("/home/jolisper/.lein/" (21982 37432 178061 785000) "../" "profiles.clj" "./" "self-installs/")
 
  ("/home/jolisper/.lein/self-installs/" (21981 44293 127769 597000) "../" "./" "leiningen-2.5.2-standalone.jar")
-
- ("/home/jolisper/src/living-clojure/clj-repl/src/clj_repl/" (21982 36107 574754 304000) "../" "./" "core.clj")
-
- ("/etc/" (21982 30010 917074 44000) "update-manager/" "polkit-1/" "hosts.allow" "../" "selinux/" "popularity-contest.conf" ".java/" "rsyslog.conf" "network/" "host.conf" "ld.so.cache" "rmt" "mime.types" "python3.4/" "issue.net" "gtk-3.0/" "modules-load.d/" "newt/" "apm/" "pnm2ppa.conf" "calendar/" "login.defs" "mtab" "python2.7/" "insserv/" "emacs/" "debian_version" "insserv.conf" "mailcap" "ifplugd/" "purple/" "services" "group-" "cron.weekly/" "pulse/" "subgid" "bash.bashrc" "python/" "ghostscript/" "libpaper.d/" "mtools.conf" "gnome-app-install/" "default/" "securetty" "wpa_supplicant/" "binfmt.d/" "dictionaries-common/" "apparmor.d/" "dhcp/" "initramfs-tools/" "ufw/" "ppp/" "insserv.conf.d/" "sane.d/" "chatscripts/" "dconf/" "init.d/" "resolv.conf" "sudoers.d/" "locale.alias" "gnome-system-tools/" "cron.daily/" "update-notifier/" "init/" "security/" "rc4.d/" "sysctl.conf" "gconf/" "firefox/" "opt/" "modules" "wgetrc" "udisks2/" "zsh_command_not_found" "apt/" "rc6.d/" "ssl/" "hostname" "gshadow-" "magic.mime" "mke2fs.conf" "subgid-" "ltrace.conf" "rsyslog.d/" "hosts" "ca-certificates.conf" "gtk-2.0/" "inputrc" "magic" "alternatives/" "nanorc" "cupshelpers/" "pam.d/" "usb_modeswitch.conf" "libaudit.conf" "crontab" "gss/" "./" "sgml/" "papersize" "rc.local" "iproute2/" "apport/" "shells" "profile" "perl/" "mailcap.order" "gai.conf" "passwd" "adduser.conf" "libnl-3/" "issue" "legal" "bindresvport.blacklist" "xul-ext/" "rc3.d/" "ld.so.conf.d/" "passwd-" "menu-methods/" "logrotate.d/" "X11/" "vim/" "groff/" "nsswitch.conf" "ca-certificates/" "rpc" "uniconf.conf" "protocols" "ntp.conf" "profile.d/" "terminfo/" "sysctl.d/" "depmod.d/" "fuse.conf" "libgda-5.0/" "logcheck/" "resolvconf/" "hosts.deny" "dpkg/" "rcS.d/" "cron.hourly/" "dnsmasq.d/" "skel/" "subuid" "debconf.conf" "hdparm.conf" "obex-data-server/" "timezone" "tmpfiles.d/" "shadow" "logrotate.conf" "pki/" "kbd/" "drirc" "manpath.config" "ldap/" "emacs24/" "localtime" "UPower/" "grub.d/" "ImageMagick-6/" "ld.so.conf" "xdg/" "bash_completion.d/" "anacrontab" "shadow-" "lxdm/" "ConsoleKit/" "NetworkManager/" "kernel-img.conf" "updatedb.conf" "udev/" "rc0.d/" "networks" "fonts/" "fstab" "gshadow" "usb_modeswitch.d/" "deluser.conf" "wvdial.conf" "python3/" "environment" ".pwd.lock" "xml/" "console-setup/" "bluetooth/" "pm/" "update-motd.d/" "kernel/" "pam.conf" "subuid-" "cups/" "sudoers" "lightdm/" "machine-id" "apparmor/" "dbus-1/" "vtrgb" "os-release" "cron.monthly/" "bash_completion" "vdpau_wrapper.cfg" "gnome/" "systemd/" "cron.d/" "lsb-release" "modprobe.d/" "rc5.d/" "group" "ssh/" "ucf.conf" "rc1.d/" "rc2.d/")
 
  ("/home/" (21977 52448 356253 805000) "../" "jolisper/" "./")
 
  ("/home/jolisper/src/living-clojure/clj-repl/src/" (21981 14439 367570 484000) "../" "./" "clj_repl/")
 
  ("/home/jolisper/src/living-clojure/" (21981 14440 923723 391000) "../" "async-tea-party/" "clj-repl/" "./" "cheshire-cat/" "macros/" "serpent-talk/")
-
- ("/home/jolisper/src/" (21981 14498 801410 664000) "scattered-scatterplot/" "../" "org/" "ces/" "rml/" "lilypond/" "elixir/" "react/" "hellorest/" "algorithms-1/" "echo.zip" "calcul/" "nimble/" "file-upload/" "nodebots/" "j--/" "echo/" "living-clojure/" "clojure-for-machine-learning/" "ruby_chess/" "socket.io/" "streams-app.txt" "coding-matrix/" "1" "lxd/" "clisp/" "sml/" "scala/" "crystal/" "music-utils/" "./" "angular.js/" "jruby/" "proglang/" "rule-engine/" "programingmasterclass/" "ruby/" "rule-engine.zip" "php-src/" "ruby-tutorial/" "guessing_game/" "hello_world_rust/" "clojure-games/" "clojurescript/" "benchmark-graph/" "c-programming/" "streamming-example/" "buildyourownlisp/" "charla-git/" "dump.rdb" "factorizar/" "nim/" "emms/" "bulk_operations/" "undo-tree/" "factor/" "streams-app/" "clojure/")
 
  ("/usr/share/doc/bash/" (21815 36765 0 0) "../" "copyright" "README.bash_completion.gz" "NEWS.gz" "README.commands.gz" "./" "changelog.Debian.gz" "README.Debian.gz" "POSIX.gz" "RBASH" "README" "COMPAT.gz" "inputrc.arrows" "INTRO.gz" "README.abs-guide")
 
