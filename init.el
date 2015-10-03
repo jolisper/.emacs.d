@@ -2,6 +2,7 @@
   "Load a file in current user's configuration directory."
   (load-file (expand-file-name file user-emacs-directory)))
 
+;; (load-user-file "custom-theme.el")	
 (load-user-file "menu-bar.el")
 (load-user-file "company-mode.el")
 (load-user-file "auto-save-and-backup-files.el")
