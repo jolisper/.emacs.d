@@ -4,4 +4,5 @@
 	mac-command-modifier 'meta
 	mac-option-modifier 'none)
   (set-face-attribute 'default nil
-		      :family "Monaco" :height 120 :weight 'normal))
+		      :family "Monaco" :height 120 :weight 'normal)
+  (setq ring-bell-function #'ignore))
