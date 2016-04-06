@@ -6,4 +6,8 @@
     ;; This choice of keybinding leaves cider-macroexpand-1 unbound
     (cljr-add-keybindings-with-prefix "C-c C-m"))
 
+(setq cljr-warn-on-eval nil)
+
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+
+
