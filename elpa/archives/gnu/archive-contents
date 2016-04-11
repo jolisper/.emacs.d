@@ -37,7 +37,7 @@
 		 nil "Indent and dedent Lisp code, automatically adjust close parens" tar
 		 ((:url . "http://elpa.gnu.org/packages/adjust-parens.html"))])
  (aggressive-indent .
-		    [(1 5 1)
+		    [(1 5 3)
 		     ((emacs
 		       (24 1))
 		      (cl-lib
@@ -63,7 +63,7 @@
 	((:url . "http://elpa.gnu.org/packages/ampc.html")
 	 (:keywords "ampc" "mpc" "mpd"))])
  (arbitools .
-	    [(0 53)
+	    [(0 55)
 	     ((cl-lib
 	       (0 5)))
 	     "Package for chess tournaments administration" single
@@ -103,9 +103,9 @@
        ((:keywords "point" "location")
 	(:url . "https://github.com/abo-abo/avy"))])
  (beacon .
-	 [(1 2)
+	 [(1 2 1)
 	  ((seq
-	    (1 11)))
+	    (2 14)))
 	  "Highlight the cursor whenever the window scrolls" single
 	  ((:url . "https://github.com/Malabarba/beacon")
 	   (:keywords "convenience"))])
@@ -586,7 +586,7 @@
 	     ((:url . "https://github.com/michael-heerdegen/on-screen.el")
 	      (:keywords "convenience"))])
  (org .
-      [(20160404)
+      [(20160411)
        nil "Outline-based notes management and organizer" tar nil])
  (osc .
       [(0 1)
@@ -889,7 +889,9 @@
 	(:url . "http://www.gnuvola.org/software/xpm/"))])
  (yasnippet .
 	    [(0 9 1)
-	     nil "Yet another snippet extension for Emacs." tar
+	     ((cl-lib
+	       (0 5)))
+	     "Yet another snippet extension for Emacs." tar
 	     ((:keywords "convenience" "emulation")
 	      (:url . "http://github.com/capitaomorte/yasnippet"))])
  (ztree .
