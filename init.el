@@ -19,4 +19,5 @@
 (load-user-file "rainbow-delimiters-mode.el")
 (load-user-file "projectile-mode.el")
 (load-user-file "mac-tunning.el")
+(load-user-file "eldoc-cider-mode.el")
 (load-user-file "clj-refactor.el")
