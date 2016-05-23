@@ -1,6 +1,20 @@
 (smartparens-global-strict-mode +1)
 (sp-use-paredit-bindings)
-(sp-pair "'" nil :actions :rem)
+
+(sp-with-modes sp--lisp-modes
+  ;; disable ', it's the quote character!
+  (sp-local-pair "'" nil :actions nil)
+  ;; also only use the pseudo-quote inside strings where it serve as
+  ;; hyperlink.
+  (sp-local-pair "`" "'" :when '(sp-in-string-p sp-in-comment-p))
+  (sp-local-pair "`" nil
+                 :skip-match (lambda (ms mb me)
+                               (cond
+                                ((equal ms "'")
+                                 (or (sp--org-skip-markup ms mb me)
+                                     (not (sp-point-in-string-or-comment))))
+                                (t (not (sp-point-in-string-or-comment)))))))
+
 (show-smartparens-global-mode +1)
 
 ;; No bold pair match face
