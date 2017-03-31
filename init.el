@@ -22,3 +22,4 @@
 (load-user-file "cider-mode.el")
 (load-user-file "sr-speedbar.el")
 (load-user-file "clj-refactor.el")
+(load-user-file "golang.el")
