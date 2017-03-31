@@ -2,6 +2,8 @@
 (setq go-bin-path (string-join `(,go-path "/bin")))
 
 (setenv "GOPATH" go-path)
+(setenv "PATH" (concat (getenv "PATH") ":" go-bin-path))
+
 (add-to-list 'exec-path go-bin-path)
 
 (when (memq window-system '(mac ns))
