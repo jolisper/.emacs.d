@@ -25,6 +25,8 @@
 
 ;; Go format before save
 (defun my-go-mode-hook ()
+  ; Use goimports instead of go-fmt
+  (setq gofmt-command "goimports")
   ; Call Gofmt before saving                                                    
   (add-hook 'before-save-hook 'gofmt-before-save)
   ; Customize compile command to run go build
