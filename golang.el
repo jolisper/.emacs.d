@@ -48,3 +48,7 @@
 
 (with-eval-after-load 'go-mode
    (require 'go-autocomplete))
+
+;; Guru
+(require 'go-guru)
+(add-hook 'go-mode-hook #'go-guru-hl-identifier-mode)
