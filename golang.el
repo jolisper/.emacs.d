@@ -52,3 +52,7 @@
 ;; Guru
 (require 'go-guru)
 (add-hook 'go-mode-hook #'go-guru-hl-identifier-mode)
+
+;; Go eldoc
+;;(require 'go-eldoc)
+(add-hook 'go-mode-hook 'go-eldoc-setup)
