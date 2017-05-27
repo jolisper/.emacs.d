@@ -41,18 +41,16 @@
 
 ;; Go Autocomplete
 ;; go get -u github.com/nsf/gocode
-(defun auto-complete-for-go ()
-  (auto-complete-mode 1))
-
-(add-hook 'go-mode-hook 'auto-complete-for-go)
-
-(with-eval-after-load 'go-mode
-   (require 'go-autocomplete))
+(require 'company-go)
+(add-hook 'go-mode-hook 'company-mode)
+(add-hook 'go-mode-hook (lambda ()
+  (set (make-local-variable 'company-backends) '(company-go))
+  (company-mode)))
 
 ;; Guru
 (require 'go-guru)
 (add-hook 'go-mode-hook #'go-guru-hl-identifier-mode)
 
 ;; Go eldoc
-;;(require 'go-eldoc)
+(require 'go-eldoc)
 (add-hook 'go-mode-hook 'go-eldoc-setup)
