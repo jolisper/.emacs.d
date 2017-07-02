@@ -23,5 +23,7 @@
 (load-user-file "mac-tunning.el")
 (load-user-file "cider-mode.el")
 (load-user-file "sr-speedbar.el")
+(load-user-file "org-babel.el")
 (load-user-file "clj-refactor.el")
+(load-user-file "image+.el")
 (load-user-file "golang.el")
