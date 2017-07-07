@@ -54,3 +54,14 @@
 ;; Go eldoc
 (require 'go-eldoc)
 (add-hook 'go-mode-hook 'go-eldoc-setup)
+
+;; Smartparents
+
+;; for i := range x {<cursor>} to
+;; for i := range x {
+;;    <cursor>
+;; }
+;; when hits RET
+(sp-local-pair 'go-mode "{" nil :post-handlers '(("||\n[i]" "RET")))
+
+
