@@ -27,3 +27,4 @@
 (load-user-file "clj-refactor.el")
 (load-user-file "image+.el")
 (load-user-file "golang.el")
+(load-user-file "org-mode.el")
