@@ -37,3 +37,5 @@ recursive list of all children under `my-org-agenda-root'. "
 
 (jolisper-org-agenda-files-update)
 
+;; For fussy serach in links 
+(setq org-link-search-must-match-exact-headline nil)
