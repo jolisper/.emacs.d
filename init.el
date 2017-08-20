@@ -28,3 +28,4 @@
 (load-user-file "image+.el")
 (load-user-file "golang.el")
 (load-user-file "org-mode.el")
+(load-user-file "auto-revert.el")
