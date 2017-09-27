@@ -29,3 +29,4 @@
 (load-user-file "golang.el")
 (load-user-file "org-mode.el")
 (load-user-file "auto-revert.el")
+(load-user-file "eshell.el")

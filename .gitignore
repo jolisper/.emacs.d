@@ -2,3 +2,5 @@ auto-save-list/*
 tramp
 projectile-bookmarks.eld
 ido.last
+eshell/history
+eshell/lastdir
