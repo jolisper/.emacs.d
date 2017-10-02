@@ -7,7 +7,7 @@
         (dirs '())
         (files (directory-files dir nil nil t)))
     (dolist (file files)
-      (unless (member file '("." ".."))
+      (unless (member file '("." ".." ".git"))
         (let ((file (concat dir "/" file)))
           (when (file-directory-p file)
             (setq dirs (append (cons file
