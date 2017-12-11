@@ -66,3 +66,7 @@
 
 ;; Flycheck on Golang files
 (add-hook 'go-mode-hook 'flycheck-mode)
+(setq flycheck-gometalinter-test t)
+(setq flycheck-gometalinter-enable-linters
+      '("golint" "testify" "test" "gosimple" "safesql" "staticcheck"))
+(setq flycheck-gometalinter-deadline "10s")
