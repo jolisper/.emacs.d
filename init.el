@@ -30,3 +30,4 @@
 (load-user-file "org-mode.el")
 (load-user-file "auto-revert.el")
 (load-user-file "eshell.el")
+(load-user-file "dtrace-mode.el")
