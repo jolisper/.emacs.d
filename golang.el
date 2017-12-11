@@ -64,4 +64,5 @@
 ;; when hits RET
 (sp-local-pair 'go-mode "{" nil :post-handlers '(("||\n[i]" "RET")))
 
-
+;; Flycheck on Golang files
+(add-hook 'go-mode-hook 'flycheck-mode)
